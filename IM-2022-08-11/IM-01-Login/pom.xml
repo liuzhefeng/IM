@@ -8,5 +8,18 @@
     <artifactId>IM-01-Login</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+    <build>
+        <finalName>IM-01-Login</finalName>
+        <plugins>
+            <plugin>
+                <groupId>com.zenjava</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>8.8.3</version>
+                <configuration>
+                    <mainClass>com.im.ui.login.Application</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
