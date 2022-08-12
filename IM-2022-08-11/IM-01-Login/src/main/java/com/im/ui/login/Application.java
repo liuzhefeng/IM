@@ -1,6 +1,7 @@
 package com.im.ui.login;
 
-import com.im.ui.login.view.Login;
+import com.im.ui.login.view.login.ILoginMethod;
+import com.im.ui.login.view.login.LoginController;
 import javafx.stage.Stage;
 
 /**
@@ -11,8 +12,11 @@ import javafx.stage.Stage;
 public class Application extends javafx.application.Application {
 
     public void start(Stage primaryStage) throws Exception {
-        Login login = new Login();
-        login.show();
+        ILoginMethod login = new LoginController(
+                (userId, userPassword) ->
+                        System.out.println("登陆 userId：" + userId + " userPassword：" + userPassword));
+
+        login.doShow();
     }
 
     public static void main(String[] args) {
