@@ -1,8 +1,7 @@
-package com.im.ui.login.view.login;
+package com.im.ui.view.login;
 
-import com.im.ui.login.view.UIObject;
+import com.im.ui.view.UIObject;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
@@ -20,8 +19,8 @@ import java.io.IOException;
  */
 public abstract class LoginInit extends UIObject {
 
-    private static final String RESOURCE_NAME = "/com/im/ui/login/login.fxml";
-    private static final String IMAGE_NAME = "/com/im/ui/login/img/system/logo.png";
+    private static final String RESOURCE_NAME = "/com/im/ui/login.fxml";
+    private static final String IMAGE_NAME = "/com/im/ui/img/system/logo.png";
 
     protected ILoginEvent loginEvent;
 

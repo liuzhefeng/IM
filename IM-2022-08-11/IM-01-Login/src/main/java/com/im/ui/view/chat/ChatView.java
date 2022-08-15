@@ -1,4 +1,4 @@
-package com.im.ui.login.view.chat;
+package com.im.ui.view.chat;
 
 /**
  * @author zfliu

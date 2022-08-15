@@ -1,4 +1,4 @@
-package com.im.ui.login.view;
+package com.im.ui.view;
 
 import javafx.scene.Cursor;
 import javafx.scene.Parent;

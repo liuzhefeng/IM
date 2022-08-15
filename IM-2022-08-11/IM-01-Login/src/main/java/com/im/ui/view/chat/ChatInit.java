@@ -1,6 +1,6 @@
-package com.im.ui.login.view.chat;
+package com.im.ui.view.chat;
 
-import com.im.ui.login.view.UIObject;
+import com.im.ui.view.UIObject;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;

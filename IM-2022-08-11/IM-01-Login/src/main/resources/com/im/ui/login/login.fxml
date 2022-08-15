@@ -4,7 +4,7 @@
 <?import javafx.scene.text.Font?>
 <Pane id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
       prefWidth="540" prefHeight="415" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx/8.0.121"
-      xmlns:fx="http://javafx.com/fxml/1">
+      xmlns:fx="http://javafx.com/com/im/ui/1">
     <children>
         <!-- 操作栏；最小化、关闭 -->
         <Pane id="operation" prefWidth="540" prefHeight="158">

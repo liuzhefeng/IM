@@ -1,4 +1,4 @@
-package com.im.ui.login.view.login;
+package com.im.ui.view.login;
 
 /**
  * @author zfliu
